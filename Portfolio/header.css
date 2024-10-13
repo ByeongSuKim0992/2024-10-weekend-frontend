@@ -1,0 +1,28 @@
+header{
+    width: 100vw;
+    background-color: white;
+}
+header > .contents{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.links{
+    display: flex;
+    gap: 15px;
+}
+.links > li{
+    padding: 15px;
+}
+.log{
+    width: 100px;
+}
+.log > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

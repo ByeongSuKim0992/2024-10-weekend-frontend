@@ -1,0 +1,40 @@
+.iam{
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+
+.iam > .contents{
+width: 100%;
+max-width: var(--max-width--pc);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.title{
+    font-size: var(--font-size--x-large);
+}
+.button{
+    display: flex;
+margin-top: 50px;
+}
+.icon{
+    width: fit-content;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size:var(--font-size--large);
+}
+.text{
+    font-size: 8px;
+}
