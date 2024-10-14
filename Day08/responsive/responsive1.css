@@ -1,0 +1,12 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
+
+/* pc, tablet, mobile */
+@media screen and (max-width: 800px) {
+  .box {
+    background-color: pink;
+  }
+}

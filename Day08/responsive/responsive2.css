@@ -1,0 +1,20 @@
+/* pc 버전일 때 header 홈 어바웃 Q&A */
+header {
+  display: flex;
+}
+.links {
+  display: flex;
+}
+.hanburger {
+  display: none;
+}
+
+/* tablet 버전 이하 일때는 폰트어썸 햄버거로 대체하기 */
+@media screen and (max-width: 1280px) {
+  .links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
